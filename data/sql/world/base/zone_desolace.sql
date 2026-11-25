@@ -1270,12 +1270,12 @@ INSERT INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`,
 (11625, 0, 0, 0, 19, 0, 100, 0, 5821, 0, 0, 0, 0, 0, 80, 1162500, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,            'Cork Gizelton - On Quest Accept - Run Script 1162500'), -- start escort
 --
 (11625, 0, 1, 2, 108, 0, 100, 0, 78, 61162501, 0, 0, 0, 0, 235, 240000, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,      'Cork Gizelton - On Waypoint Reached - Movement Pause'),
-(11625, 0, 2, 3, 61, 0, 100, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,                      'Cork Gizelton - On Waypoint Reached - Say Text 1'),
+(11625, 0, 2, 3, 61, 0, 100, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,                      'Cork Gizelton - On Waypoint Reached - Say Text 1'),
 (11625, 0, 3, 0, 61, 0, 100, 0, 0, 0, 0, 0, 0, 0, 82, 3, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,                     'Cork Gizelton - On Waypoint Reached - Add Quest Giver flag'),
 (11625, 0, 4, 0, 108, 0, 100, 0, 79, 61162501, 0, 0, 0, 0, 83, 3, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,            'Cork Gizelton - On Waypoint Reached - Remove Quest Giver flag'),
 --
 (11625, 0, 5, 6, 108, 0, 100, 0, 106, 61162503, 0, 0, 0, 0, 235, 240000, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,     'Cork Gizelton - On Waypoint Reached - Movement Pause'),
-(11625, 0, 6, 7, 61, 0, 100, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 10, 611626, 11626, 0, 0, 0, 0, 0, 0,            'Cork Gizelton - On Waypoint Reached - Rigger Gizelton Say Text 1'),
+(11625, 0, 6, 7, 61, 0, 100, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 10, 611626, 11626, 0, 0, 0, 0, 0, 0,            'Cork Gizelton - On Waypoint Reached - Rigger Gizelton Say Text 1'),
 (11625, 0, 7, 0, 61, 0, 100, 0, 0, 0, 0, 0, 0, 0, 82, 3, 0, 0, 0, 0, 0, 10, 611626, 11626, 0, 0, 0, 0, 0, 0,           'Cork Gizelton - On Waypoint Reached - Add Quest Giver flag for Rigger Gizelton'),
 (11625, 0, 8, 0, 108, 0, 100, 0, 107, 61162503, 0, 0, 0, 0, 83, 3, 0, 0, 0, 0, 0, 10, 611626, 11626, 0,0,0,0,0,0,      'Cork Gizelton - On Waypoint Reached - Remove Quest Giver flag for Rigger Gizelton'),
 --
@@ -1303,14 +1303,14 @@ INSERT INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`,
 (11625, 0, 29, 0, 108, 0, 100, 0, 134, 61162503, 0, 0, 0, 0, 80, 1162507, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,   'Cork Gizelton - On Waypoint Reached - Run Script 1162507'), -- peaceful route done, continue to final waypoint
 (11625, 0, 44, 0, 108, 0, 100, 0, 47, 61162505, 0, 0, 0, 0, 80, 1162508, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,    'Cork Gizelton - On Waypoint Reached - Run Script 1162508'), -- back at the north camp, start the next round
 --
-(11625, 0, 30, 31, 108, 0, 100, 1, 52, 61162501, 0, 0, 0, 0, 12, @NPC_VENDOR_TRON, 1, 600000, 0,0,0,8,0,0,0,0, -694.61, 1460.7, 90.794, 2.4, 'Cork Gizelton - On Waypoint Reached - Spawn NPC_VENDOR_TRON'), -- north stop
+(11625, 0, 30, 31, 108, 0, 100, 0, 52, 61162501, 0, 0, 0, 0, 12, @NPC_VENDOR_TRON, 1, 600000, 0,0,0,8,0,0,0,0, -694.61, 1460.7, 90.794, 2.4, 'Cork Gizelton - On Waypoint Reached - Spawn NPC_VENDOR_TRON'), -- north stop
 (11625, 0, 31, 0, 61, 0, 100, 0, 0, 0, 0, 0, 0, 0, 82, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,                    'Cork Gizelton - On Waypoint Reached - Add Gossip flag'),
-(11625, 0, 32, 33, 108, 0, 100, 1, 53, 61162501, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,           'Cork Gizelton - On Waypoint Reached - Say Text 0'),
+(11625, 0, 32, 33, 108, 0, 100, 0, 53, 61162501, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,           'Cork Gizelton - On Waypoint Reached - Say Text 0'),
 (11625, 0, 33, 0, 61, 0, 100, 0, 0, 0, 0, 0, 0, 0, 83, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,                    'Cork Gizelton - On Waypoint Reached - Remove Gossip flag'),
 --
-(11625, 0, 34, 35, 108, 0, 100, 1, 90, 61162503, 0, 0, 0, 0, 12, @NPC_SUPER_SELLER, 1, 600000, 0, 0, 0, 8, 0, 0, 0, 0, -1927.48, 2418.02, 60.77, 5.67, 'Script9 - Cork Gizelton - Spawn NPC_VENDOR_TRON'), -- south stop
+(11625, 0, 34, 35, 108, 0, 100, 0, 90, 61162503, 0, 0, 0, 0, 12, @NPC_SUPER_SELLER, 1, 600000, 0, 0, 0, 8, 0, 0, 0, 0, -1927.48, 2418.02, 60.77, 5.67, 'Script9 - Cork Gizelton - Spawn NPC_VENDOR_TRON'), -- south stop
 (11625, 0, 35, 0, 61, 0, 100, 0, 0, 0, 0, 0, 0, 0, 82, 1, 0, 0, 0, 0, 0, 10, 611626, 11626, 0, 0, 0, 0, 0, 0,          'Cork Gizelton - On Waypoint Reached - Add Gossip flag'),
-(11625, 0, 36, 37, 108, 0, 100, 1, 91, 61162503, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 10, 611626, 11626, 0, 0, 0, 0, 0, 0, 'Cork Gizelton - On Waypoint Reached - Rigger Gizelton Say Text 0'),
+(11625, 0, 36, 37, 108, 0, 100, 0, 91, 61162503, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 10, 611626, 11626, 0, 0, 0, 0, 0, 0, 'Cork Gizelton - On Waypoint Reached - Rigger Gizelton Say Text 0'),
 (11625, 0, 37, 0, 61, 0, 100, 0, 0, 0, 0, 0, 0, 0, 83, 1, 0, 0, 0, 0, 0, 10, 611626, 11626, 0, 0, 0, 0, 0, 0,          'Cork Gizelton - On Waypoint Reached - Remove Gossip flag'),
 --
 (11625, 0, 38, 39, 6, 0, 100, 0, 0, 0, 0, 0, 0, 0, 6, 5821, 0, 0, 0, 0, 0, 12, 1, 0, 0, 0, 0, 0, 0, 0,                 'Cork Gizelton - On Death - Fail Quest'),
